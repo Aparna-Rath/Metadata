@@ -26,7 +26,4 @@
   - `python3 get_data.py`
   
 
-## How it works
-- It makes use of the http://169.254.169.254/latest/meta-data link-local address. Instance metatada is provided at this link, but only when you visit it from a running instance.
-- A few simple Python scripts are used to extract the required information using the above API.
-- See [AWS user guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) for more info on the instance metadata API.
+

@@ -10,7 +10,7 @@
 - Install Python 3 and git on your instance 
     - `sudo yum install python3 git`
 - Clone this repository
-  - `git clone https://github.com/bluprince13/aws-metadata-json`
+  - `git clone https://github.com/Aparna-Rath/Metadata`
 - Install pipenv
   - `sudo pip3 install pipenv`
 - Open the repository on your instance
@@ -23,8 +23,8 @@
 - Open the `src` folder
   - `cd metadata/src`
 - Run whichever script you need:
-  - `python3 get_metadata.py`
-  - `python3 get_key.py`
+  - `python3 get_data.py`
+  
 
 ## How it works
 - It makes use of the http://169.254.169.254/latest/meta-data link-local address. Instance metatada is provided at this link, but only when you visit it from a running instance.
